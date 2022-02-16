@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .hero {
@@ -47,3 +48,47 @@ a{
   color: black;
   border-color: #ffe866
 }
+  
+
+footer {
+    background-color: #c3fae8;
+    padding: 4rem 0 4rem 0;
+}
+
+.footer-container {
+    width: 80%;
+    height: 19vh;
+    background-color: #c3fae8;
+    color: #22b8cf;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
+
+.footer-heading a {
+    color: #22b8cf;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+    color: aqua;
+    transition: 0.3 ease-out;
+}
+
+.footer-img img {
+    width: 13.5rem;
+    height: 17vh;
+}
+
