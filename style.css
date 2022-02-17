@@ -1,7 +1,7 @@
 /*Nav bar log img */
 .logo img {
   width: 5%;
-  height: auto;
+  padding: bottom 5%;
 }
 * {
   padding: 0;
@@ -13,6 +13,7 @@ body {
   font-family: fantasy;
 }
 nav {
+  padding: 10px;
   height: 80px;
   width: 100%;
   background: #c3fae8;
@@ -21,12 +22,15 @@ nav ul {
   float: right;
   margin-right: 40px;
 }
+/*
 label.logo {
-  font-size: 35px;
+  padding: 10px;
+  font-size: 25px;
   font-weight: bold;
   color: black;
   line-height: 80px;
 }
+*/
 nav li {
   display: inline-block;
   margin: 0 8px;
@@ -97,4 +101,7 @@ nav #icon {
   nav ul.show {
     left: 0;
   }
+}
+h1 {
+  align-items: center;
 }
