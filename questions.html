@@ -11,51 +11,103 @@
   <header>
     <nav></nav>
   </header>
-  <main>
-    <h1>Whats Your Number?</h1>
-    <form>
-      <p>How long are your showers?</p>
-      <select>
-        <option>5-10min</option>
-        <option>10-25min</option>
-        <option>25-45min</option>
-        <option>1 hour</option>
-      </select>
-      <p>How often do you take bathes?</p>
-      <select>
-        <option>Once a day</option>
-        <option>Once a week</option>
-        <option>I do not take bathes</option>
-      </select>
-      <p>How long do you leave the faucet on? (brusing teeth, washing face/hands)</p>
-      <select>
-        <option>5-10mins</option>
-        <option><10-15mins/option>
-        <option>15-20mins</option>
-        <option>20-30min</option>
-      </select>
-      <p>How long do you leave the kitchen faucet on? (cooking, washing dishes)</p>
-      <select>
-        <option>5-10mins</option>
-        <option><10-15mins/option>
-        <option>15-20mins</option>
-        <option>20-30min</option>
-      </select>
-      <p>How often do you use a dishwasher ?</p>
-      <select>
-        <option>Once a week</option>
-        <option>2 times a week </option>
-        <option>3 times a week</option>
-      </select>
-      <p>How often do you use a dishwasher ?</p>
-      <select>
-        <option>Once a week</option>
-        <option>2 times a week </option>
-        <option>3 times a week</option>
-      </select>
+  <main class="form_cont">
+    <h1 class="form_title">Whats Your Number?</h1>
+    <form class="actual_form">
+      <p class="questions">How long are your showers?</p>
+      <div>
+        <input type="radio" name="choice">
+        <label> 5-10 mins</label>
+        <input type="radio" name="choice"
+        <label> 10-25 min</label>
+        <input type="radio" name="choice"
+        <lable> 25-45 min</lable>
+        <input type="radio" name="choice"
+        <lable> 1 hour </lable>
+      </div>
+      <p class="questions">How often do you take bathes?</p>
+      <div>
+        <input type="radio" name="choice"
+        <lable> Once a day</lable>
+        <input type="radio" name="choice"
+        <lable> Once a week</>
+        <input type="radio" name="choice"
+        <lable> I do not take bathes</lable>
+      </div>
+      <p class="questions">How long do you leave the faucet on? (brusing teeth, washing face/hands)</p>
+      <div>
+        <input type="radio" name="choice"
+        <lable> 5-10mins</lable>
+        <input type="radio" name="choice"
+        <lable> 10-15mins</lable>
+        <input type="radio" name="choice"
+        <lable> 15-20mins</lable>
+        <input type="radio" name="choice"
+        <lable> 20-30min</lable>
+      </div>
+      <p class="questions">How long do you leave the kitchen faucet on? (cooking, washing dishes)</p>
+      <div>
+        <input type="radio" name="choice"
+        <lable> 5-10mins</lable>
+        <input type="radio" name="choice"
+        <lable> 10-15mins</lable>
+        <input type="radio" name="choice"
+        <lable> 15-20mins</lable>
+        <input type="radio" name="choice"
+        <label> 20-30min</label>
+      </div>
+      <p class="questions">How often do you use a dishwasher ?</p>
+      <div>
+        <input type="radio" name="choice"
+        <lable> Once a week</lable>
+        <input type="radio" name="choice"
+        <lable> 2 times a week </lable>
+        <input type="radio" name="choice"
+        <lable> 3 times a week</lable>
+      </div>
+      <p class="questions">How often do you use a dishwasher ?</p>
+      <div>
+        <input type="radio" name="choice"
+        <lable> Once a week</lable>
+        <input type="radio" name="choice"
+        <lable> 2 times a week </lable>
+        <input type="radio" name="choice"
+        <lable> 3 times a week</lable>
+      </div>
+      <div>
       <input type="submit" value="Submit">
+      </div>
     </form>
   </main>
+  <footer>
+    <div class="footer-container">
+        <div class="footer-heading 1">
+            <h2>About Us</h2>
+            <a href="#">Blog</a>
+            <a href="#">Story</a>
+            <a href="#">Stats</a>
+            <a href="#">Customers</a>
+            <a href="#">Terms of service</a>
+        </div>
+        <div class="footer-heading 2">
+            <h2>Contact Us</h2>
+            <a href="#">Jobs</a>
+            <a href="#">Support</a>
+            <a href="#">Contact</a>
+            <a href="#">Sponsors</a>
+        </div>
+        <div class="footer-heading 3">
+            <h2>Social Media</h2>
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">Twitter</a>
+            <a href="#">Youtube</a>
+        </div>
+        <div class="footer-img">
+            <img src="/img/Aqua_Alert_ transparent.png" alt="Aqua_Alert_logo">
+        </div>
+    </div>  
+</footer>
   
   <script src="app.js"></script>
 </body>
