@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /*Nav bar log img */
 .logo img {
   width: 5%;
@@ -105,3 +106,102 @@ nav #icon {
 h1 {
   align-items: center;
 }
+=======
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*////////// Footer //////////*/
+.hero {
+  background-image: url("img/underwater_hero.jpeg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: contain;
+  position: relative;
+  margin: 0px;
+  padding: 250px;
+  filter: grayscale(30%);
+}
+
+.hero-title {
+  color: white;
+  font-size: 45px;
+  font-family: "fantasy", "copperplate";
+  text-align: center;
+  padding: 10px;
+  padding-bottom: 30px;
+
+}
+a{
+  text-decoration: none;
+}
+.hero-button {
+  font-family: "fantasy", "copperplate";
+  padding: 10px;
+  font-size: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  background: #66d9e8;
+  border: 2px solid #fff;
+  border-radius: 10px;
+  position: relative;
+  color: black;
+  
+}
+
+.hero-button:hover {
+  background-color: #38d9a9;
+  color: black;
+  border-color: #ffe866
+}
+  
+
+footer {
+    background-color: #c3fae8;
+    padding: 4rem 0 4rem 0;
+}
+
+.footer-container {
+    width: 80%;
+    height: 19vh;
+    background-color: #c3fae8;
+    color: black;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.footer-heading {
+    display: flex;
+    flex-direction: column;
+    margin-right: 4rem;
+}
+
+.footer-heading h2 {
+    margin-bottom: 2rem;
+}
+
+.footer-heading a {
+    color: black;
+    text-decoration: none;
+    margin-bottom: 0.5rem;
+}
+
+.footer-heading a:hover {
+    color: aqua;
+    transition: 0.3 ease-out;
+}
+
+.footer-img img {
+    margin-left: 0;
+    margin-right: 5rem;
+    width: 13.5rem;
+    height: 17vh;
+}
+
+>>>>>>> 4beba75536ec42a0a35a31ca6d809f0aa02387fb
