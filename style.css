@@ -146,6 +146,7 @@ a {
 footer {
   background-color: #c3fae8;
   padding: 4rem 0 4rem 0;
+  box-sizing: border-box;
 }
 
 .footer-container {
