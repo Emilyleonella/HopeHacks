@@ -1,15 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+  }
+  
 /*Nav bar log img */
 .logo img {
   width: 80px;
   height: 80px;
   padding: bottom 5px;
 }
-* {
-  padding: 0;
-  margin: 0;
-  text-decoration: none;
-  list-style: none;
-}
+
 body {
   font-family: fantasy;
 }
@@ -153,6 +155,7 @@ a {
 footer {
   background-color: #c3fae8;
   padding: 4rem 0 4rem 0;
+  box-sizing: border-box;
 }
 
 .footer-container {
