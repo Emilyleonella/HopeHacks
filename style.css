@@ -1,19 +1,20 @@
-/*Nav bar log img */
-.logo img {
-  width: 80px;
-  height: 80px;
-  padding: bottom 5px;
-}
 * {
   padding: 0;
   margin: 0;
   text-decoration: none;
   list-style: none;
 }
-body {
-  font-family: fantasy;
+
+/*Nav bar log img */
+.logo img {
+  width: 80px;
+  height: 80px;
+  padding: bottom 5px;
 }
+
+
 nav {
+  font-family: fantasy;
   padding: 5px;
   height: 80px;
   width: 100%;
@@ -23,15 +24,7 @@ nav ul {
   float: right;
   margin-right: 40px;
 }
-/*
-label.logo {
-  padding: 10px;
-  font-size: 25px;
-  font-weight: bold;
-  color: black;
-  line-height: 80px;
-}
-*/
+
 nav li {
   display: inline-block;
   margin: 0 8px;
@@ -106,7 +99,7 @@ nav #icon {
 h1 {
   align-items: center;
 }
-/*////////// Footer //////////*/
+/* //////HERO IMAGE ////// */
 .hero {
   background-image: url("img/underwater_hero.jpeg");
   background-size: cover;
@@ -149,7 +142,7 @@ a {
   color: black;
   border-color: #ffe866;
 }
-
+/*////////// Footer //////////*/
 footer {
   background-color: #c3fae8;
   padding: 4rem 0 4rem 0;
