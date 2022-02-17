@@ -1,8 +1,8 @@
-<<<<<<< HEAD
 /*Nav bar log img */
 .logo img {
-  width: 5%;
-  padding: bottom 5%;
+  width: 80px;
+  height: 80px;
+  padding: bottom 5px;
 }
 * {
   padding: 0;
@@ -14,7 +14,7 @@ body {
   font-family: fantasy;
 }
 nav {
-  padding: 10px;
+  padding: 5px;
   height: 80px;
   width: 100%;
   background: #c3fae8;
@@ -106,13 +106,6 @@ nav #icon {
 h1 {
   align-items: center;
 }
-=======
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /*////////// Footer //////////*/
 .hero {
   background-image: url("img/underwater_hero.jpeg");
@@ -133,9 +126,8 @@ h1 {
   text-align: center;
   padding: 10px;
   padding-bottom: 30px;
-
 }
-a{
+a {
   text-decoration: none;
 }
 .hero-button {
@@ -150,58 +142,54 @@ a{
   border-radius: 10px;
   position: relative;
   color: black;
-  
 }
 
 .hero-button:hover {
   background-color: #38d9a9;
   color: black;
-  border-color: #ffe866
+  border-color: #ffe866;
 }
-  
 
 footer {
-    background-color: #c3fae8;
-    padding: 4rem 0 4rem 0;
+  background-color: #c3fae8;
+  padding: 4rem 0 4rem 0;
 }
 
 .footer-container {
-    width: 80%;
-    height: 19vh;
-    background-color: #c3fae8;
-    color: black;
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin: 0 auto;
+  width: 80%;
+  height: 19vh;
+  background-color: #c3fae8;
+  color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0 auto;
 }
 
 .footer-heading {
-    display: flex;
-    flex-direction: column;
-    margin-right: 4rem;
+  display: flex;
+  flex-direction: column;
+  margin-right: 4rem;
 }
 
 .footer-heading h2 {
-    margin-bottom: 2rem;
+  margin-bottom: 2rem;
 }
 
 .footer-heading a {
-    color: black;
-    text-decoration: none;
-    margin-bottom: 0.5rem;
+  color: black;
+  text-decoration: none;
+  margin-bottom: 0.5rem;
 }
 
 .footer-heading a:hover {
-    color: aqua;
-    transition: 0.3 ease-out;
+  color: aqua;
+  transition: 0.3 ease-out;
 }
 
 .footer-img img {
-    margin-left: 0;
-    margin-right: 5rem;
-    width: 13.5rem;
-    height: 17vh;
+  margin-left: 0;
+  margin-right: 5rem;
+  width: 13.5rem;
+  height: 17vh;
 }
-
->>>>>>> 4beba75536ec42a0a35a31ca6d809f0aa02387fb
