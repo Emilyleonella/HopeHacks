@@ -1,22 +1,22 @@
 
  * {
-   font-size: 18px;
+   position: relative;
+  
      margin:0;
      padding:0;
      text-decoration: none;
     list-style: none;
    }
    /*Nav bar log img */
-.logo img {
+   .logo img {
     width: 80px;
-    height: 80px;
-    padding: bottom 5px;
+    height: 70px;
+    
   }
   
-  body {
-    font-family: fantasy;
-  }
+
   nav {
+    font-family: fantasy;
     padding: 5px;
     height: 80px;
     width: 100%;
@@ -136,35 +136,34 @@
     border-radius: 15%;
     border-width: 3px;
 }
-  /* #hero {
-    width: 100%;
-    height: 120vh;
-    background:linear-gradient(rgba(0, 0, 0, 0.26), rgba(0, 0, 0, 0.24)), url("ecommerce.jpeg") no-repeat center / cover;
-    color: white;
-   } */
+ 
 
    .hero-image {
     background-image: url("img/contactsbackground.jpg");
     width: 100%;
-    height: 120vh;
+    height: 700px;
     color: black;
     background-size: cover;
    }
    footer {
     background-color: #c3fae8;
+    
     padding: 4rem 0 4rem 0;
     box-sizing: border-box;
+    
+    
   }
   
   .footer-container {
     width: 80%;
-    height: 19vh;
+    height: 25vh;
     background-color: #c3fae8;
     color: black;
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
     margin: 0 auto;
+    
   }
   
   .footer-heading {
@@ -191,6 +190,7 @@
   .footer-img img {
     margin-left: 0;
     margin-right: 5rem;
-    width: 13.5rem;
-    height: 17vh;
+    width: 170px;
+    height: 160px;
   }
+  
