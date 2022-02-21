@@ -1,0 +1,28 @@
+{
+  "name": "pollutiongroupproject",
+  "version": "1.0.0",
+  "description": "Water Usage Project ",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrissJones/PollutionGroupProject.git"
+  },
+  "keywords": [
+    "HopeHack"
+  ],
+  "author": "Group 7",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrissJones/PollutionGroupProject/issues"
+  },
+  "homepage": ".",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mathjs": "^10.1.1",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}

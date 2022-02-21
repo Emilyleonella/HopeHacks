@@ -1,0 +1,247 @@
+[
+    {
+        "state": "Alabama",
+        "stateAverage": 365000000,
+        "personAverage": 76
+    },
+    {
+        "state": "Alaska",
+        "stateAverage": 64000000,
+        "personAverage": 90
+    },
+    {
+        "state": "Arizona",
+        "stateAverage": 939000000,
+        "personAverage": 147
+    },
+    {
+        "state": "Arkansas",
+        "stateAverage": 308000000,
+        "personAverage": 106
+    },
+    {
+        "state": "California",
+        "stateAverage": 4000000000,
+        "personAverage": 108
+    },
+    {
+        "state": "Colorado",
+        "stateAverage": 559000000,
+        "personAverage": 111
+    },
+    {
+        "state": "Connecticut",
+        "stateAverage": 268000000,
+        "personAverage": 75
+    },
+    {
+        "state": "Delaware",
+        "stateAverage": 71800000,
+        "personAverage": 80
+    },
+    {
+        "state": "Florida",
+        "stateAverage": 1600000000,
+        "personAverage": 87
+    },
+    {
+        "state": "Georgia",
+        "stateAverage": 765000000,
+        "personAverage": 79
+    },
+    {
+        "state": "Hawaii",
+        "stateAverage": 196000000,
+        "personAverage": 144
+    },
+    {
+        "state": "Idaho",
+        "stateAverage": 263000000,
+        "personAverage": 168
+    },
+    {
+        "state": "Illinois",
+        "stateAverage": 1000000000,
+        "personAverage": 80
+    },
+    {
+        "state": "Indiana",
+        "stateAverage": 493000000,
+        "personAverage": 76
+    },
+    {
+        "state": "Iowa",
+        "stateAverage": 198000000,
+        "personAverage": 65
+    },
+    {
+        "state": "Kansas",
+        "stateAverage": 209000000,
+        "personAverage": 73
+    },
+    {
+        "state": "Kentucky",
+        "stateAverage": 290000000,
+        "personAverage": 67
+    },
+    {
+        "state": "Louisiana",
+        "stateAverage": 473000000,
+        "personAverage": 104
+    },
+    {
+        "state": "Maine",
+        "stateAverage": 72400000,
+        "personAverage": 55
+    },
+    {
+        "state": "Maryland",
+        "stateAverage": 592000000,
+        "personAverage": 103
+    },
+    {
+        "state": "Massachusetts",
+        "stateAverage": 423000000,
+        "personAverage": 65
+    },
+    {
+        "state": "Michigan",
+        "stateAverage": 779000000,
+        "personAverage": 79
+    },
+    {
+        "state": "Minnesota",
+        "stateAverage": 327000000,
+        "personAverage": 62
+    },
+    {
+        "state": "Mississippi",
+        "stateAverage": 297000000,
+        "personAverage": 100
+    },
+    {
+        "state": "Missouri",
+        "stateAverage": 529000000,
+        "personAverage": 88
+    },
+    {
+        "state": "Montana",
+        "stateAverage": 105000000,
+        "personAverage": 107
+    },
+    {
+        "state": "Nebraska",
+        "stateAverage": 174000000,
+        "personAverage": 95
+    },
+    {
+        "state": "Nevada",
+        "stateAverage": 361000000,
+        "personAverage": 134
+    },
+    {
+        "state": "New Hampshire",
+        "stateAverage": 92000000,
+        "personAverage": 70
+    },
+    {
+        "state": "New Jersey",
+        "stateAverage": 703000000,
+        "personAverage": 80
+    },
+    {
+        "state": "New Mexico",
+        "stateAverage": 186000000,
+        "personAverage": 90
+    },
+    {
+        "state": "New York",
+        "stateAverage": 1500000000,
+        "personAverage": 79
+    },
+    {
+        "state": "North Carolina",
+        "stateAverage": 668000000,
+        "personAverage": 70
+    },
+    {
+        "state": "North Dakota",
+        "stateAverage": 53600000,
+        "personAverage": 80
+    },
+    {
+        "state": "Ohio",
+        "stateAverage": 756000000,
+        "personAverage": 66
+    },
+    {
+        "state": "Oklahoma",
+        "stateAverage": 319000000,
+        "personAverage": 85
+    },
+    {
+        "state": "Oregon",
+        "stateAverage": 432000000,
+        "personAverage": 113
+    },
+    {
+        "state": "Pennsylvania",
+        "stateAverage": 749000000,
+        "personAverage": 59
+    },
+    {
+        "state": "Rhode Island",
+        "stateAverage": 75700000,
+        "personAverage": 72
+    },
+    {
+        "state": "South Carolina",
+        "stateAverage": 463000000,
+        "personAverage": 100
+    },
+    {
+        "state": "Tennessee",
+        "stateAverage": 509000000,
+        "personAverage": 80
+    },
+    {
+        "state": "Texas",
+        "stateAverage": 2300000000,
+        "personAverage": 92
+    },
+    {
+        "state": "Utah",
+        "stateAverage": 462000000,
+        "personAverage": 167
+    },
+    {
+        "state": "Vermont",
+        "stateAverage": 39900000,
+        "personAverage": 64
+    },
+    {
+        "state": "Virginia",
+        "stateAverage": 600000000,
+        "personAverage": 75
+    },
+    {
+        "state": "Washington",
+        "stateAverage": 747000000,
+        "personAverage": 111
+    },
+    {
+        "state": "West Virginia",
+        "stateAverage": 148000000,
+        "personAverage": 80
+    },
+    {
+        "state": "Wisconsin",
+        "stateAverage": 290000000,
+        "personAverage": 51
+    },
+    {
+        "state": "Wyoming",
+        "stateAverage": 81400000,
+        "personAverage": 144
+    }
+]
