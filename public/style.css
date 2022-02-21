@@ -192,7 +192,7 @@ footer {
 .copyrights {
   text-align: center;
 }
-@media (max-width: 800px) {
+@media (max-width: 990px) {
   .ft-3 {
     display: none;
   }
