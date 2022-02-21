@@ -7,6 +7,15 @@ const res = require('express/lib/response');
 const app = express()
 
 
+const simplify = require('semver/ranges/simplify');
+
+
+
+
+
+
+
+
 app.use(express.static("public"))
 
 app.get('/', (req, res) =>{
