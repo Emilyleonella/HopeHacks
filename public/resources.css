@@ -106,7 +106,7 @@
    }
  }
  .hero-image {
-    background-image: url("/public/img/rainbow-over-the-mountain-green-leaf-trees-near-mountain-wallpaper-preview.jpg");
+    background-image: url("img/rainbow-over-the-mountain-green-leaf-trees-near-mountain-wallpaper-preview.jpg");
     width: 100%;
     height: 120vh;
     color: black;
