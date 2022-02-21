@@ -6,10 +6,12 @@ const express = require('express');
 const res = require('express/lib/response');
 const app = express()
 
+const math = require("mathjs")
 
-const simplify = require('semver/ranges/simplify');
+// let five = 5
 
 
+// console.log(math.evaluate(`${five}+4`))
 
 
 
