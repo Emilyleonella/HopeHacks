@@ -192,6 +192,12 @@ footer {
 .copyrights {
   text-align: center;
 }
+@media (max-width: 800px) {
+  .ft-3 {
+    display: none;
+  }
+}
+
 @media (max-width: 450px) {
     .hero-title {
       display: none;
