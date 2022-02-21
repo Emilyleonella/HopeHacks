@@ -193,6 +193,9 @@ footer {
   text-align: center;
 }
 @media (max-width: 450px) {
+    .hero-title {
+      display: none;
+    }
     footer {
       padding-top: 2rem;
       padding-bottom: .7rem;
