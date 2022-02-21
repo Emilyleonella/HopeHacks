@@ -221,5 +221,6 @@ footer {
     .footer-img img {
       width: 100px;
       height: 90px;
+      margin-left: 5.5rem;
     }
   }
