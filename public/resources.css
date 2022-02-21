@@ -6,11 +6,11 @@
    list-style: none;
   }
   /*Nav bar log img */
-.logo img {
-   width: 80px;
-   height: 80px;
-   padding: bottom 5px;
- }
+  .logo img {
+    width: 80px;
+    height: 70px;
+    
+  }
  
  body {
    font-family: fantasy;
@@ -106,7 +106,7 @@
    }
  }
  .hero-image {
-    background-image: url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.wallpaperflare.com%2Fsearch%3Fwallpaper%3Drainbow%2B%2Blake&psig=AOvVaw2xYbwY5wSwnkn1e4ETLLAf&ust=1645542370117000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJCTzpaJkfYCFQAAAAAdAAAAABAw");
+    background-image: url("/public/img/rainbow-over-the-mountain-green-leaf-trees-near-mountain-wallpaper-preview.jpg");
     width: 100%;
     height: 120vh;
     color: black;
@@ -153,6 +153,7 @@
   .footer-img img {
     margin-left: 0;
     margin-right: 5rem;
-    width: 13.5rem;
-    height: 17vh;
+    width: 170px;
+    height: 160px;
   }
+  
