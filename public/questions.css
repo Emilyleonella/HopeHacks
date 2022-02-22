@@ -103,7 +103,7 @@ h1 {
 /* FORM CSS STARTS HERE */
 .form_cont{
   text-align: center;
-  background-image: url("/public/img/underwater_hero.jpeg");;
+  background-image: url("img/underwater_hero.jpeg");;
   background-size: cover;
   padding:40px;
   
