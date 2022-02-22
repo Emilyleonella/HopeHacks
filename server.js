@@ -5,11 +5,13 @@ const path = require('path');
 const express = require('express');
 // const res = require('express/lib/response');
 const app = express()
+const fetch = require('node-fetch')
+const math = require("mathjs")
+
+// let five = 5
 
 
-// const simplify = require('semver/ranges/simplify');
-
-
+// console.log(math.evaluate(`${five}+4`))
 
 
 

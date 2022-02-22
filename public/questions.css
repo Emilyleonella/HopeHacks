@@ -103,16 +103,30 @@ h1 {
 /* FORM CSS STARTS HERE */
 .form_cont{
   text-align: center;
-  padding: 12px;
+  background-image: url("/public/img/underwater_hero.jpeg");;
+  background-size: cover;
+  padding:40px;
+  
 }
 
 .form_title{
-  padding: 20px;
+  padding: 10px;
+  font-family: "fantasy", "copperplate";
+  font-size: 50px;
 }
 
-.questions{
+#questions{
   padding: 10px;
-  font-size: 25px;
+  margin: 10px;
+  background: rgba(107, 119, 158, 0.356);
+  font-family: fantasy;
+  
+  
+}
+
+.ques{
+  padding: 20px;
+  font-size: 27px;
 }
 
 main {
@@ -123,6 +137,20 @@ main {
   /* color: black;
   background-size: cover; */
  }
+select{
+  padding: 5px;
+  background-color: #c5f6fa;
+  font-size: 20px;
+  text-align: center;
+  font-family: "fantasy", "copperplate";
+  
+}
+
+.submit{
+  padding: 10px;
+  
+}
+
 /* FOOTER STARTS HERE  */
 /*////////// Footer //////////*/
 footer {
@@ -169,3 +197,4 @@ footer {
   width: 170px;
   height: 160px;
 }
+
