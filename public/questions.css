@@ -115,7 +115,7 @@ h1 {
   font-size: 50px;
 }
 
-#questions{
+.actual_form{
   padding: 10px;
   margin: 10px;
   background: rgba(107, 119, 158, 0.356);
@@ -124,23 +124,28 @@ h1 {
   
 }
 
-.ques{
+.questions{
   padding: 20px;
   font-size: 27px;
 }
 
-select{
-  padding: 5px;
-  background-color: #c5f6fa;
-  font-size: 20px;
-  text-align: center;
+label{
   font-family: "fantasy", "copperplate";
-  
 }
 
-.submit{
+/* .submit{
   padding: 10px;
-  
+  background-color:yellow
+
+} */
+
+input[type=submit] {
+  padding:5px 15px; 
+  background:#ccc; 
+  border:0 none;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
 }
 
 /* FOOTER STARTS HERE  */

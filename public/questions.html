@@ -23,7 +23,9 @@
   </header>
   <main class="form_cont">
     <h1 class="form_title">Whats Your Number?</h1>
-    <form class="actual_form" id="fromQues" name="form" onsubmit="" >
+
+
+    <form class="actual_form" id="fromQues" name="form"  onsubmit="submitForm()">
       <p class="questions">How long are your showers?</p>
       
         <input id="rd1" type="radio" name="q1" value="15.75" >
@@ -87,8 +89,9 @@
         
         <input id="3xweek" type="radio" name="q5" value="0">
         <lable for="3xweek">I dont use a dishwasher</lable>
-       
-      <button class="submit" type="submit" onclick="fn1()">Submit</button>
+       <div>
+      <input class="submit" type="submit" value="submit">
+      </div>
     </form>
 
 
