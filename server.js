@@ -30,4 +30,9 @@ app.get('/', (req, res) => {
 
 app.listen(port)
 
+app.post('/api',(req,res) => {
+console.log(req);
+
+});
+
 
