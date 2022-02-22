@@ -198,3 +198,42 @@ footer {
   height: 160px;
 }
 
+.copyrights {
+  text-align: center;
+}
+@media (max-width: 990px) {
+  .ft-3 {
+    display: none;
+  }
+}
+
+@media (max-width: 450px) {
+    .form_cont {
+      background-image: none;
+      margin-bottom: 13rem;
+    }
+    .hero-title {
+      display: none;
+    }
+    footer {
+      padding-top: 2rem;
+      padding-bottom: .7rem;
+    }  
+    .ft-1 {
+      display: none;
+    }
+    .ft-2 {
+      display: none;
+    }
+    .ft-3 {
+      display: none;
+    }
+    .copyrights {
+      font-size: x-large;
+    }
+    .footer-img img {
+      width: 100px;
+      height: 90px;
+      margin-left: 5.5rem;
+    }
+  }
