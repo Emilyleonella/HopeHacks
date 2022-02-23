@@ -29,3 +29,10 @@ app.get('/', (req, res) => {
 })
 
 app.listen(process.env.PORT || port)
+
+app.post('/api',(req,res) => {
+console.log(req);
+
+});
+
+

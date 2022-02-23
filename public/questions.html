@@ -23,34 +23,40 @@
   </header>
   <main class="form_cont">
     <h1 class="form_title">Whats Your Number?</h1>
-    <form class="actual_form" id="questions" name="form" onsubmit="submitForm()">
+
+
+    <form class="actual_form" id="fromQues" name="form"  onsubmit="submitForm()">
       <p class="questions">How long are your showers?</p>
       
-        <input id="5-10mins" type="radio" name="q1" value="15.75">
-        <label for="5-10mins"> 5-10 mins</label>
+      <div class="cont1">
+        <input id="rd1" type="radio" name="q1" value="15.75" >
+        <label for="rd1"> 5-10 mins</label>
         
-        <input id="10-25mins" type="radio" name="q1" value="36.75">
-        <label for="10-25mins"> 10-25 min</label>
+        <input id="rd2" type="radio" name="q1" value="36.75" >
+        <label for="rd2"> 10-25 min</label>
         
-        <input id="25-45mins"type="radio" name="q1" value="73.5">
-        <lable for="25-45mins"> 25-45 min</lable>
+        <input id="rd3"type="radio" name="q1" value="73.5">
+        <lable for="rd3"> 25-45 min</lable>
         
-        <input id="1-hour"type="radio" name="q1" value="120">
-        <lable for="1-hour"> 1 hour </lable>
+        <input id="rd4"type="radio" name="q1" value="120">
+        <lable for="rd4"> 1 hour </lable>
+      </div>
       
        <p class="questions">Do you usally take bathes?</p>
-      
+       
+       <div class="cont2">
         <input id="1xday"type="radio" name="q2" value="30">
         <lable for="1xday"> yes</lable>
         
         <input id="1xweek"type="radio" name="q2" value="0">
-        <lable for="1xweek"> Sometimes</>
+        <lable for="1xweek"> Sometimes</lable>
         
           <input id="no_answer"type="radio" name="q2" value="0">
         <lable for="no_answer"> I do not take bathes</lable>
-     
+       </div>
+     </l>
       <p class="questions">How long do you leave the faucet on? (brusing teeth, washing face/hands)</p>
-      
+      <div class="cont3">
         <input id="5-10mins" type="radio" name="q3" value="15">
         <lable for="5-10mins"> 5-10mins</lable>
         
@@ -62,9 +68,9 @@
         
         <input id="20-30mins" type="radio" name="q3" value="50">
         <lable for="20-30mins"> 20-30min</lable>
-      
+      </div>
       <p class="questions">How long do you leave the kitchen faucet on? (cooking, washing dishes)</p>
-      
+      <div class="cont4">
         <input id="5-10mins" type="radio" name="q4" value="16.5">
         <lable for="5-10mins"> 5-10mins</lable> 
         
@@ -76,9 +82,9 @@
          
         <input id="20-30mins" type="radio" name="q4" value="55">
         <label for="20-30min"> 20-30min</label>
-      
+      </div>
       <p class="questions">How often do you use a dishwasher ?</p>
-      
+      <div class="cont5">
         <input id="1week" type="radio" name="q5" value="21">
         <lable for="1week"> Everyday</lable> 
          
@@ -87,8 +93,10 @@
         
         <input id="3xweek" type="radio" name="q5" value="0">
         <lable for="3xweek">I dont use a dishwasher</lable>
-       
-      <button class="submit" type="submit">Submit</button>
+      </div>
+       <div class="button">
+      <input class="submit" type="submit" value="submit">
+      </div>
     </form>
 
 
