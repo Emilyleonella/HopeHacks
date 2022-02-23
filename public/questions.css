@@ -106,6 +106,7 @@ h1 {
   background-image: url("/public/img/underwater_hero.jpeg");;
   background-size: cover;
   padding:40px;
+  height:700px;
   
 }
 
@@ -125,29 +126,56 @@ h1 {
 }
 
 .questions{
-  padding: 20px;
+  padding: 10px;
   font-size: 27px;
 }
 
-label{
+.cont1{
   font-family: "fantasy", "copperplate";
+  background-color:rgba(107, 119, 158, 0.356);
+  font-size: 20px;
+  padding:5px;
+}
+.cont2{
+  font-family: "fantasy", "copperplate";
+  background-color:rgba(107, 119, 158, 0.356);
+  font-size: 20px;
+  padding:5px;
+}
+.cont3{
+  font-family: "fantasy", "copperplate";
+  background-color:rgba(107, 119, 158, 0.356);
+  font-size: 20px;
+  padding:5px;
+}
+.cont4{
+  font-family: "fantasy", "copperplate";
+  background-color:rgba(107, 119, 158, 0.356);
+  font-size: 20px;
+  padding:5px;
+}
+.cont5{
+  font-family: "fantasy", "copperplate";
+  background-color:rgba(107, 119, 158, 0.356);
+  font-size: 20px;
+  padding:5px;
 }
 
-/* .submit{
-  padding: 10px;
-  background-color:yellow
-
-} */
 
 input[type=submit] {
-  padding:5px 15px; 
-  background:#ccc; 
-  border:0 none;
+  margin-top: 20px;
+  padding:10px;
+  padding-left: 17px;
+  padding-right: 17px;
+  background: rgb(152, 165, 194);
   cursor:pointer;
-  -webkit-border-radius: 5px;
   border-radius: 5px; 
+  font-family: "fantasy", "copperplate";
+  font-size: 20px;
 }
-
+input[type=submit]:hover{
+  background-color: rgba(228, 255, 105, 0.5);
+}
 /* FOOTER STARTS HERE  */
 /*////////// Footer //////////*/
 footer {
